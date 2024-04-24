@@ -35,3 +35,5 @@ terraform.rc
 
 /dist
 /node_modules
+
+*.zip
