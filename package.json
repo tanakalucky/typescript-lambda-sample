@@ -4,6 +4,7 @@
   "description": "TypeScriptで書いたコードをTerraformを使用してLambdaとしてデプロイするサンプルプロジェクトです。",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
