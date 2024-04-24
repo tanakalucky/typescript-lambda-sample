@@ -1,0 +1,8 @@
+services:
+  typescript-lambda-sample:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/typescript-lambda-sample
+    tty: true

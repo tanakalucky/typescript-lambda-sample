@@ -1,0 +1,24 @@
+{
+  "service": "typescript-lambda-sample",
+  "dockerComposeFile": "../docker-compose.yml",
+  "workspaceFolder": "/typescript-lambda-sample",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "HashiCorp.terraform"
+      ],
+      "settings": {
+        "prettier.configPath": ".prettierrc",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.tabSize": 2
+      }
+    }
+  }
+}
